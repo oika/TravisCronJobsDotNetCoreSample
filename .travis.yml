@@ -2,5 +2,6 @@ language: csharp
 mono: none
 dotnet: 2.2
 sudo: required
+dist: xenial
 script:
  - dotnet run -c Release -p src/TravisCronJobsDotNetCoreSample/TravisCronJobsDotNetCoreSample.csproj

@@ -1,5 +1,5 @@
 language: csharp
 mono: none
-dotnet: 2.2.101
+dotnet: 2.2
 script:
  - dotnet run -c Release -p src/TravisCronJobsDotNetCoreSample/TravisCronJobsDotNetCoreSample.csproj
